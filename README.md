@@ -1,5 +1,3 @@
-# KentonMacdonald.github.i
-<!DOCTYPE html>
 <html lang="en">
 <head>
 <title>Page Title</title>
