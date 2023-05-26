@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  padding: 140px;
+  text-align: center;
+  background-image: url('https://drive.google.com/uc?export=view&id=1Dra5rLG-lf6RHOzF4Wai70h0NHwxQ7AW');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 50% 50%;
+  color: black;
+}
+
+/* Increase the font size of the h1 element */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: black;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #bf9cfb;
+  color: whtie;
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+  max-width: 50%;
+  padding: 0 4px;
+}
+* {box-sizing: border-box}
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.container {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+}
+
+/* Make the image to responsive */
+.image {
+  display: block;
+  margin-top: 8px;
+  width: 100%;
+  height: auto;
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  transition: .5s ease;
+  opacity:0;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.container:hover .overlay {
+  opacity: 1;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+/* Footer */
+.footer {
+  padding: 40px;
+  text-align: center;
+  background-image: url('./Camera_dog.jpg');
+  background-attachment: fixed; 
+  background-size: 10% 10%;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width:100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Photos</h1>
+  <p>Where your photo albums are hosted</p>
+</div>
+
+<div class="navbar">
+  <a href="C:\Users\19191\Documents\Project\Photos.html">Photos</a>
+  <a href="C:\Users\19191\Documents\Project\Videos.html">Videos</a>
+  <!--
+  <a href="https://kentyfiles.w3spaces-preview.com/Files/Files.html">Files</a>
+  -->
+  <a href="C:\Users\19191\Documents\Project\Home.html" class="right">Home</a>
+</div>
+
+<div class="row"> 
+  <div class="column">
+    <div class="container">
+      <a href="C:\Users\19191\Documents\Project\Photo-Albums\Photo-Album-1.html">
+      <img src="https://drive.google.com/uc?export=view&id=1ufkQLzHRihJza__6VPhcnAQJagdlZC1F" alt="Dog" class="image">
+      </a>
+      <div class="overlay">Photo Album 1</div>
+    </div>
+    <div class="container">
+      <a href="C:\Users\19191\Documents\Project\Photo-Albums\Photo-Album-3.html">
+      <img src="https://drive.google.com/uc?export=view&id=1ufkQLzHRihJza__6VPhcnAQJagdlZC1F" alt="Dog" class="image">
+      <div class="overlay">Photo Album 3</div>
+    </div>
+    <div class="container">
+      <a href="C:\Users\19191\Documents\Project\Photo-Albums\Photo-Album-5.html">
+      <img src="https://drive.google.com/uc?export=view&id=1ufkQLzHRihJza__6VPhcnAQJagdlZC1F" alt="Dog" class="image">
+      <div class="overlay">Photo Album 5</div>
+    </div>
+    
+  </div>
+  <div class="column">
+    
+    <div class="container">
+      <a href="C:\Users\19191\Documents\Project\Photo-Albums\Photo-Album-2.html">
+      <img src="https://drive.google.com/uc?export=view&id=1ufkQLzHRihJza__6VPhcnAQJagdlZC1F" alt="Dog" class="image">
+      <div class="overlay">Photo Album 2</div>
+    </div>
+    
+    <div class="container">
+      <a href="C:\Users\19191\Documents\Project\Photo-Albums\Photo-Album-4.html">
+      <img src="https://drive.google.com/uc?export=view&id=1ufkQLzHRihJza__6VPhcnAQJagdlZC1F" alt="Dog" class="image">
+      <div class="overlay">Photo Album 4</div>
+    </div>
+    
+    <div class="container">
+      <a href="C:\Users\19191\Documents\Project\Photo-Albums\Photo-Album-6.html">
+      <img src="https://drive.google.com/uc?export=view&id=1ufkQLzHRihJza__6VPhcnAQJagdlZC1F" alt="Dog" class="image">
+      <div class="overlay">Photo Album 6</div>
+    </div>
+    
+  </div>
+</div>
+
+<div class="footer">
+</div>
+
+</body>
+</html>

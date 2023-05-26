@@ -1,0 +1,217 @@
+ <!DOCTYPE html>
+<html>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+  max-width: 50%;
+  padding: 0 4px;
+}
+* {box-sizing: border-box}
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.container {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+}
+
+/* Make the image to responsive */
+.image {
+  display: block;
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  height: auto;
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  transition: .5s ease;
+  opacity:0;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.container:hover .overlay {
+  opacity: 1;
+}
+
+</style>
+<body>
+
+<!-- Header -->
+<div class="header">
+  <h1>Album-2</h1>
+  <p></p>
+  <a href="C:\Users\19191\Documents\Project\Photos.html">Photos</a>
+  <a href="C:\Users\19191\Documents\Project\Home.html">Home</a>
+</div>
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <div class="container">
+      <a href="https://drive.google.com/file/d/1HwvFNck6ikp71vxTRLd8JPSE9eXXbqze/view?usp=sharing">
+      <img src="https://drive.google.com/uc?export=view&id=1HwvFNck6ikp71vxTRLd8JPSE9eXXbqze" alt="Doggy" class="image">
+      </a>
+      <div class="overlay">Doggy
+      </div>
+    </div>
+    <div class="container">
+      <a href="https://drive.google.com/file/d/18iTrz62VvaCheEHsDWjFefxcLXKbEUR1/view?usp=sharing">
+      <img src="https://drive.google.com/uc?export=view&id=18iTrz62VvaCheEHsDWjFefxcLXKbEUR1" alt="Doggy" class="image">
+      </a>
+      <div class="overlay">Doggy
+      </div>
+    </div>
+    <div class="container">
+      <a href="https://drive.google.com/file/d/1RTkMlzJVg2j4oP5__kS53IuSrsSdjMIg/view?usp=share_link">
+      <img src="https://drive.google.com/uc?export=view&id=1RTkMlzJVg2j4oP5__kS53IuSrsSdjMIg" alt="Doggy" class="image">
+      </a>
+      <div class="overlay">Doggy
+      </div>
+    </div>
+    <div class="container">
+      <a href="https://drive.google.com/file/d/1Z6qXRKEaAlL602RVOJSmwnCNK_nTiEgS/view?usp=share_link">
+      <img src="https://drive.google.com/uc?export=view&id=1Z6qXRKEaAlL602RVOJSmwnCNK_nTiEgS" alt="Doggy" class="image">
+      </a>
+      <div class="overlay">Doggy
+      </div>
+    </div>
+    <div class="container">
+      <a href="https://drive.google.com/file/d/1A0_PdfL_Ij451At6_gRQP3hhbGvcPhHv/view?usp=share_link">
+      <img src="https://drive.google.com/uc?export=view&id=1A0_PdfL_Ij451At6_gRQP3hhbGvcPhHv" alt="Doggy" class="image">
+      </a>
+      <div class="overlay">Doggy
+      </div>
+    </div>
+    <div class="container">
+      <a href="https://drive.google.com/file/d/1m8otMFqAmZDyLcqm0kFofOMHBTdLtYY5/view?usp=share_link">
+      <img src="https://drive.google.com/uc?export=view&id=1m8otMFqAmZDyLcqm0kFofOMHBTdLtYY5" alt="Doggy" class="image">
+      </a>
+      <div class="overlay">Doggy
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="container">
+      <a href="https://drive.google.com/file/d/1iPWiVa8oVpxKX0nUvSsjWfWfxvpE84er/view?usp=share_link">
+      <img src="https://drive.google.com/uc?export=view&id=1iPWiVa8oVpxKX0nUvSsjWfWfxvpE84er" alt="Doggy" class="image">
+      </a>
+      <div class="overlay">Doggy
+      </div>
+    </div>
+    <div class="container">
+      <a href="https://drive.google.com/file/d/1ff5lMDYXZgrjOYTLnwnjpsGmsmFYm4i-/view?usp=share_link">
+      <img src="https://drive.google.com/uc?export=view&id=1ff5lMDYXZgrjOYTLnwnjpsGmsmFYm4i-" alt="Doggy" class="image">
+      </a>
+      <div class="overlay">Doggy
+      </div>
+    </div>
+    <div class="container">
+      <a href="https://drive.google.com/file/d/1ApNJxmUP_ngMxWeLUHMVCciNVgOWyjZG/view?usp=share_link">
+      <img src="https://drive.google.com/uc?export=view&id=1ApNJxmUP_ngMxWeLUHMVCciNVgOWyjZG" alt="Doggy" class="image">
+      </a>
+      <div class="overlay">Doggy
+      </div>
+    </div>
+    <div class="container">
+      <a href="https://drive.google.com/file/d/1ONHmSq94xstzIFayFGiDry2kyDOMe_ma/view?usp=share_link">
+      <img src="https://drive.google.com/uc?export=view&id=1ONHmSq94xstzIFayFGiDry2kyDOMe_ma" alt="Doggy" class="image">
+      </a>
+      <div class="overlay">Doggy
+      </div>
+    </div>
+    <div class="container">
+      <a href="https://drive.google.com/file/d/1YdWvzMAvZk-vcvYglxPRW_MCefLrg0lH/view?usp=share_link">
+      <img src="https://drive.google.com/uc?export=view&id=1YdWvzMAvZk-vcvYglxPRW_MCefLrg0lH" alt="Doggy" class="image">
+      </a>
+      <div class="overlay">Doggy
+      </div>
+    </div>
+    <div class="container">
+      <a href="https://drive.google.com/file/d/1Ol9bMBIuf1sVL6zjvGVsUnwvmXZeuVIq/view?usp=share_link">
+      <img src="https://drive.google.com/uc?export=view&id=1Ol9bMBIuf1sVL6zjvGVsUnwvmXZeuVIq" alt="Doggy" class="image">
+      </a>
+      <div class="overlay">Doggy
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
