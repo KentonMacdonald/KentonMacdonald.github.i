@@ -1,13 +1,17 @@
- <!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 * {
   box-sizing: border-box;
 }
 
 body {
+  font-family: Arial, Helvetica, sans-serif;
   margin: 0;
-  font-family: Arial;
 }
 
 /* Style the header */
@@ -21,35 +25,36 @@ body {
   color: black;
 }
 
-
-.row {
-  display: -ms-flexbox; /* IE10 */
-  display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
-  flex-wrap: wrap;
-  padding: 0 4px;
+/* Increase the font size of the h1 element */
+.header h1 {
+  font-size: 40px;
 }
 
-/* Create four equal columns that sits next to each other */
-.column {
-  -ms-flex: 24%; /* IE10 */
-  flex: 24%;
-  max-width: 24%;
-  padding: 0 0px;
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: black;
 }
 
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 100%;
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
 }
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    -ms-flex: 100%;
-    flex: 100%;
-    max-width: 100%;
-  }
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #bf9cfb;
+  color: whtie;
 }
 
 /* Column container */
@@ -66,6 +71,15 @@ body {
   padding: 0 4px;
 }
 
+/* Create two equal columns that sits next to each other */
+.column {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+  max-width: 50%;
+  padding: 0 4px;
+}
+* {box-sizing: border-box}
+
 /* Container needed to position the overlay. Adjust the width as needed */
 .container {
   position: relative;
@@ -77,7 +91,6 @@ body {
 .image {
   display: block;
   margin-top: 8px;
-  vertical-align: middle;
   width: 100%;
   height: auto;
 }
@@ -98,6 +111,46 @@ body {
   opacity: 1;
 }
 
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+/* Footer */
+.footer {
+  padding: 40px;
+  text-align: center;
+  background-image: url('https://drive.google.com/uc?export=view&id=1RuwFMFRgQeW9xloGB7lKZQUdQJRnnfcX');
+  background-attachment: fixed; 
+  background-size: 10% 10%;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width:100%;
+  }
+}
 </style>
 <body>
 
