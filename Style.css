@@ -1,4 +1,4 @@
-<!DOCTYPE css>
+
 <head>
 <title>Page Title</title>
 <meta charset="UTF-8">
@@ -17,7 +17,6 @@ body {
 .header {
   padding: 140px;
   text-align: center;
-  background-image: url('https://drive.google.com/uc?export=view&id=1f1nImpnEpP29XemoyUjUs_Vy4PGv-qbt');
   background-repeat: no-repeat;
   background-attachment: fixed; 
   background-size: 100% 100%;
