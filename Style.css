@@ -13,18 +13,32 @@ body {
   margin: 0;
 }
 
-/* Style the header */
-.header {
-  padding: 140px;
-  text-align: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed; 
-  background-size: 100% 100%;
-  color: black;
+.photoheader {
+    padding: 140px;
+    text-align: center;
+    background-image: url('https://drive.google.com/uc?export=view&id=1f1nImpnEpP29XemoyUjUs_Vy4PGv-qbt');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+    color: black;
 }
 
 /* Increase the font size of the h1 element */
-.header h1 {
+.photoheader h1 {
+  font-size: 40px;
+}
+.videoheader {
+    padding: 140px;
+    text-align: center;
+    background-image: url('https://drive.google.com/uc?export=view&id=1S_yJbgHyeyuS-8fMlOtFYIXdeb21TeDX');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+    color: black;
+}
+
+/* Increase the font size of the h1 element */
+.videoheader h1 {
   font-size: 40px;
 }
 
@@ -52,7 +66,7 @@ body {
 /* Change color on hover */
 .navbar a:hover {
   background-color: #bf9cfb;
-  color: whtie;
+  color: white;
 }
 
 /* Column container */
@@ -71,9 +85,9 @@ body {
 
 /* Create two equal columns that sits next to each other */
 .column {
-  -ms-flex: 50%; /* IE10 */
-  flex: 50%;
-  max-width: 50%;
+  -ms-flex: 100%; /* IE10 */
+  flex: 100%;
+  max-width: 100%;
   padding: 0 4px;
 }
 * {box-sizing: border-box}
@@ -81,8 +95,8 @@ body {
 /* Container needed to position the overlay. Adjust the width as needed */
 .container {
   position: relative;
-  width: 50%;
-  max-width: 300px;
+  width: 100%;
+  max-width: 100%;
 }
 
 /* Make the image to responsive */
@@ -99,8 +113,8 @@ body {
   bottom: 0;
   transition: .5s ease;
   opacity:0;
-  color: black;
-  font-size: 20px;
+  color: white;
+  font-size: 300%;
   text-align: center;
 }
 
