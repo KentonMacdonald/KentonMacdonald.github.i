@@ -85,9 +85,9 @@ body {
 
 /* Create two equal columns that sits next to each other */
 .column {
-  -ms-flex: 100%; /* IE10 */
-  flex: 100%;
-  max-width: 100%;
+  -ms-flex: 200%; /* IE10 */
+  flex: 200%;
+  max-width: 200%;
   padding: 0 4px;
 }
 * {box-sizing: border-box}
@@ -95,15 +95,15 @@ body {
 /* Container needed to position the overlay. Adjust the width as needed */
 .container {
   position: relative;
-  width: 100%;
-  max-width: 100%;
+  width: 200%;
+  max-width: 200%;
 }
 
 /* Make the image to responsive */
 .image {
   display: block;
   margin-top: 8px;
-  width: 100%;
+  width: 200%;
   height: auto;
 }
 
