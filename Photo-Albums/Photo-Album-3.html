@@ -1,310 +1,215 @@
- <!DOCTYPE html>
-<html>
-<style>
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: Arial;
-}
-
-/* Style the header */
-.header {
-  padding: 140px;
-  text-align: center;
-  background-image: url('https://drive.google.com/uc?export=view&id=1RuwFMFRgQeW9xloGB7lKZQUdQJRnnfcX');
-  background-repeat: no-repeat;
-  background-attachment: fixed; 
-  background-size: 50% 50%;
-  color: black;
-}
-
-.row {
-  display: -ms-flexbox; /* IE10 */
-  display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
-
-/* Create four equal columns that sits next to each other */
-.column {
-  -ms-flex: 25%; /* IE10 */
-  flex: 25%;
-  max-width: 25%;
-  padding: 0 4px;
-}
-
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 100%;
-}
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
-  .column {
-    -ms-flex: 50%;
-    flex: 50%;
-    max-width: 50%;
-  }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    -ms-flex: 100%;
-    flex: 100%;
-    max-width: 100%;
-  }
-}
-
-/* Column container */
-.row {  
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.row {
-  display: -ms-flexbox; /* IE10 */
-  display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
-
-/* Create two equal columns that sits next to each other */
-.column {
-  -ms-flex: 50%; /* IE10 */
-  flex: 50%;
-  max-width: 50%;
-  padding: 0 4px;
-}
-* {box-sizing: border-box}
-
-/* Container needed to position the overlay. Adjust the width as needed */
-.container {
-  position: relative;
-  width: 50%;
-  max-width: 300px;
-}
-
-/* Make the image to responsive */
-.image {
-  display: block;
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 100%;
-  height: auto;
-}
-
-/* The overlay effect - lays on top of the container and over the image */
-.overlay {
-  position: absolute;
-  bottom: 0;
-  transition: .5s ease;
-  opacity:0;
-  color: black;
-  font-size: 20px;
-  text-align: center;
-}
-
-/* When you mouse over the container, fade in the overlay title */
-.container:hover .overlay {
-  opacity: 1;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+    <link rel="stylesheet" href="Photo Style.css" />
 
 </style>
+
+
+</head>
 <body>
 
-<!-- Header -->
-<div class="header">
-  <h1>Album-3</h1>
-  <p></p>
-  <a href="https://kentonmacdonald.github.ioPhotos.html">Photos</a>
-  <a href="https://kentonmacdonald.github.ioindex.html">Home</a>
+<div class="header5">
+  <h1>Plants</h1>
+  <p>Plant photos for school work</p>
 </div>
 
-<!-- Photo Grid -->
+<div class="navbar">
+  <a href="Photos.html">Photos</a>
+  <a href="Videos.html">Videos</a>
+  <!--
+  <a href="Files.html">Files</a>
+  -->
+  <a href="index.html" class="right">Home</a>
+</div>
+
 <div class="row"> 
   <div class="column">
     <div class="container">
-      <a href="https://drive.google.com/file/d/1HwvFNck6ikp71vxTRLd8JPSE9eXXbqze/view?usp=sharing">
-      <img src="https://drive.google.com/uc?export=view&id=1HwvFNck6ikp71vxTRLd8JPSE9eXXbqze" alt="Doggy" class="image">
+      <a href="https://drive.google.com/file/d/1bHitpUNM5Ok8ZFlNMdkdxHIllqPHYXdZ/view?usp=sharing">
+      <img src="https://drive.google.com/uc?export=view&id=1bHitpUNM5Ok8ZFlNMdkdxHIllqPHYXdZ" alt="Landscapes" class="image">
       </a>
-      <div class="overlay">Doggy
-      </div>
+      <div class="overlay">Plants</div>
     </div>
     <div class="container">
-      <a href="https://drive.google.com/file/d/18iTrz62VvaCheEHsDWjFefxcLXKbEUR1/view?usp=sharing">
-      <img src="https://drive.google.com/uc?export=view&id=18iTrz62VvaCheEHsDWjFefxcLXKbEUR1" alt="Doggy" class="image">
+      <a href="https://drive.google.com/file/d/10X1QPRCG6kXNE1RJEvMKEa53OwA0R2sR/view?usp=sharing">
+      <img src="https://drive.google.com/uc?export=view&id=10X1QPRCG6kXNE1RJEvMKEa53OwA0R2sR" alt="Sports" class="image">
+      <div class="overlay">Plants</div>
       </a>
-      <div class="overlay">Doggy
-      </div>
     </div>
     <div class="container">
-      <a href="https://drive.google.com/file/d/1RTkMlzJVg2j4oP5__kS53IuSrsSdjMIg/view?usp=share_link">
-      <img src="https://drive.google.com/uc?export=view&id=1RTkMlzJVg2j4oP5__kS53IuSrsSdjMIg" alt="Doggy" class="image">
+      <a href="https://drive.google.com/file/d/13sPhunD9AAQ51-ryUXcWKmlDaM6YbsQD/view?usp=sharing">
+      <img src="https://drive.google.com/uc?export=view&id=13sPhunD9AAQ51-ryUXcWKmlDaM6YbsQD" alt="Plants" class="image">
+      <div class="overlay">Plants</div>
       </a>
-      <div class="overlay">Doggy
-      </div>
     </div>
     <div class="container">
-      <a href="https://drive.google.com/file/d/1Z6qXRKEaAlL602RVOJSmwnCNK_nTiEgS/view?usp=share_link">
-      <img src="https://drive.google.com/uc?export=view&id=1Z6qXRKEaAlL602RVOJSmwnCNK_nTiEgS" alt="Doggy" class="image">
+      <a href="https://drive.google.com/file/d/1FLHp06z6P82KUu8iRx87HdYoIWuUKqNQ/view?usp=sharing">
+      <img src="https://drive.google.com/uc?export=view&id=1FLHp06z6P82KUu8iRx87HdYoIWuUKqNQ" alt="Plants" class="image">
+      <div class="overlay">Plants</div>
       </a>
-      <div class="overlay">Doggy
-      </div>
     </div>
     <div class="container">
-      <a href="https://drive.google.com/file/d/1A0_PdfL_Ij451At6_gRQP3hhbGvcPhHv/view?usp=share_link">
-      <img src="https://drive.google.com/uc?export=view&id=1A0_PdfL_Ij451At6_gRQP3hhbGvcPhHv" alt="Doggy" class="image">
+      <a href="https://drive.google.com/file/d/1SYAXMM4DszqyKKEXUWaeHrUI_RoCEjJD/view?usp=sharing">
+      <img src="https://drive.google.com/uc?export=view&id=1SYAXMM4DszqyKKEXUWaeHrUI_RoCEjJD" alt="Plants" class="image">
+      <div class="overlay">Plants</div>
       </a>
-      <div class="overlay">Doggy
-      </div>
     </div>
     <div class="container">
-      <a href="https://drive.google.com/file/d/1m8otMFqAmZDyLcqm0kFofOMHBTdLtYY5/view?usp=share_link">
-      <img src="https://drive.google.com/uc?export=view&id=1m8otMFqAmZDyLcqm0kFofOMHBTdLtYY5" alt="Doggy" class="image">
+      <a href="https://drive.google.com/file/d/11-jVpLm0cXA9nWYawMMkrkINMR2YUgU_/view?usp=sharing">
+      <img src="https://drive.google.com/uc?export=view&id=11-jVpLm0cXA9nWYawMMkrkINMR2YUgU_" alt="Plants" class="image">
+      <div class="overlay">Plants</div>
       </a>
-      <div class="overlay">Doggy
-      </div>
     </div>
+    <div class="container">
+      <a href="https://drive.google.com/file/d/1wHdlOTzB0N4_fhFsBKZ0Yx6cph7v_LGX/view?usp=sharing">
+      <img src="https://drive.google.com/uc?export=view&id=1wHdlOTzB0N4_fhFsBKZ0Yx6cph7v_LGX" alt="Plants" class="image">
+      <div class="overlay">Plants</div>
+      </a>
+    </div>
+    <div class="container">
+      <a href="https://drive.google.com/file/d/1FS4L0ZxHtZrE39Us1-C4mRv1ZBrRD2ZK/view?usp=sharing">
+      <img src="https://drive.google.com/uc?export=view&id=1FS4L0ZxHtZrE39Us1-C4mRv1ZBrRD2ZK" alt="Plants" class="image">
+      <div class="overlay">Plants</div>
+      </a>
+    </div>
+    <div class="container">
+      <a href="https://drive.google.com/file/d/1gMbH8vj4RccPxF0i4nX3IlJ38aYBk6Ls/view?usp=sharing">
+      <img src="https://drive.google.com/uc?export=view&id=1gMbH8vj4RccPxF0i4nX3IlJ38aYBk6Ls" alt="Plants" class="image">
+      <div class="overlay">Plants</div>
+      </a>
+    </div>
+    <div class="container">
+      <a href="https://drive.google.com/file/d/1i5-pHXTgPz5AYMHaSVvWlleKJGso8yap/view?usp=sharing">
+      <img src="https://drive.google.com/uc?export=view&id=1i5-pHXTgPz5AYMHaSVvWlleKJGso8yap" alt="Plants" class="image">
+      <div class="overlay">Plants</div>
+      </a>
+    </div>
+    <div class="container">
+      <a href="https://drive.google.com/file/d/1S2cVYUT8_U8nk2BbZX9AVcWXQTjQE24W/view?usp=sharing">
+      <img src="https://drive.google.com/uc?export=view&id=1S2cVYUT8_U8nk2BbZX9AVcWXQTjQE24W" alt="Plants" class="image">
+      <div class="overlay">Plants</div>
+      </a>
+    </div>
+    <div class="container">
+      <a href="https://drive.google.com/file/d/11UB2cfKIGKwL8PFcE-8MBz9saGmYr60X/view?usp=sharing">
+      <img src="https://drive.google.com/uc?export=view&id=11UB2cfKIGKwL8PFcE-8MBz9saGmYr60X" alt="Plants" class="image">
+      <div class="overlay">Plants</div>
+      </a>
+    </div>
+    <div class="container">
+      <a href="https://drive.google.com/file/d/1jykw9__S0yucEq0_5r8bdlE14nWV90za/view?usp=sharing">
+      <img src="https://drive.google.com/uc?export=view&id=1jykw9__S0yucEq0_5r8bdlE14nWV90za" alt="Plants" class="image">
+      <div class="overlay">Plants</div>
+      </a>
+    </div>
+    <div class="container">
+      <a href="https://drive.google.com/file/d/1EDcy8jVEESrFnw-vkl1vjHK2_POGUaC9/view?usp=sharing">
+      <img src="https://drive.google.com/uc?export=view&id=1EDcy8jVEESrFnw-vkl1vjHK2_POGUaC9" alt="Plants" class="image">
+      <div class="overlay">Plants</div>
+      </a>
+    </div>
+    <div class="container">
+      <a href="https://drive.google.com/file/d/1_jzBd4pZqCgAnIwxUB2VpjbNu_OHP2ud/view?usp=sharing">
+      <img src="https://drive.google.com/uc?export=view&id=1_jzBd4pZqCgAnIwxUB2VpjbNu_OHP2ud" alt="Plants" class="image">
+      <div class="overlay">Plants</div>
+      </a>
+    </div>
+
+    
   </div>
   <div class="column">
+    
     <div class="container">
-      <a href="https://drive.google.com/file/d/1iPWiVa8oVpxKX0nUvSsjWfWfxvpE84er/view?usp=share_link">
-      <img src="https://drive.google.com/uc?export=view&id=1iPWiVa8oVpxKX0nUvSsjWfWfxvpE84er" alt="Doggy" class="image">
+      <a href="https://drive.google.com/file/d/1fBuRZGM3bbrbQlY6lkOTsz2x8R-JVQx5/view?usp=sharing">
+      <img src="https://drive.google.com/uc?export=view&id=1fBuRZGM3bbrbQlY6lkOTsz2x8R-JVQx5" alt="Plants" class="image">
+      <div class="overlay">Plants</div>
       </a>
-      <div class="overlay">Doggy
-      </div>
     </div>
     <div class="container">
-      <a href="https://drive.google.com/file/d/1ff5lMDYXZgrjOYTLnwnjpsGmsmFYm4i-/view?usp=share_link">
-      <img src="https://drive.google.com/uc?export=view&id=1ff5lMDYXZgrjOYTLnwnjpsGmsmFYm4i-" alt="Doggy" class="image">
+      <a href="https://drive.google.com/file/d/1CFvPlnEgQgVwmMmbXkzzT9bv6rwzSE3X/view?usp=sharing">
+      <img src="https://drive.google.com/uc?export=view&id=1CFvPlnEgQgVwmMmbXkzzT9bv6rwzSE3X" alt="Plants" class="image">
+      <div class="overlay">Plants</div>
       </a>
-      <div class="overlay">Doggy
-      </div>
     </div>
     <div class="container">
-      <a href="https://drive.google.com/file/d/1ApNJxmUP_ngMxWeLUHMVCciNVgOWyjZG/view?usp=share_link">
-      <img src="https://drive.google.com/uc?export=view&id=1ApNJxmUP_ngMxWeLUHMVCciNVgOWyjZG" alt="Doggy" class="image">
+      <a href="https://drive.google.com/file/d/1PhAkvTIQo2EsWWmisKgmT5qTv5x5Oiw2/view?usp=sharing">
+      <img src="https://drive.google.com/uc?export=view&id=1PhAkvTIQo2EsWWmisKgmT5qTv5x5Oiw2" alt="Plants" class="image">
+      <div class="overlay">Plants</div>
       </a>
-      <div class="overlay">Doggy
-      </div>
     </div>
     <div class="container">
-      <a href="https://drive.google.com/file/d/1ONHmSq94xstzIFayFGiDry2kyDOMe_ma/view?usp=share_link">
-      <img src="https://drive.google.com/uc?export=view&id=1ONHmSq94xstzIFayFGiDry2kyDOMe_ma" alt="Doggy" class="image">
+      <a href="https://drive.google.com/file/d/15FIy32eo2em0AsxanxVupEgudZDSlL44/view?usp=sharing">
+      <img src="https://drive.google.com/uc?export=view&id=15FIy32eo2em0AsxanxVupEgudZDSlL44" alt="Plants" class="image">
+      <div class="overlay">Plants</div>
       </a>
-      <div class="overlay">Doggy
-      </div>
     </div>
     <div class="container">
-      <a href="https://drive.google.com/file/d/1YdWvzMAvZk-vcvYglxPRW_MCefLrg0lH/view?usp=share_link">
-      <img src="https://drive.google.com/uc?export=view&id=1YdWvzMAvZk-vcvYglxPRW_MCefLrg0lH" alt="Doggy" class="image">
+      <a href="https://drive.google.com/file/d/101XQ2560JpV0IRUkshUATPH9Rqo0CqBY/view?usp=sharing">
+      <img src="https://drive.google.com/uc?export=view&id=101XQ2560JpV0IRUkshUATPH9Rqo0CqBY" alt="Plants" class="image">
+      <div class="overlay">Plants</div>
       </a>
-      <div class="overlay">Doggy
-      </div>
     </div>
     <div class="container">
-      <a href="https://drive.google.com/file/d/1Ol9bMBIuf1sVL6zjvGVsUnwvmXZeuVIq/view?usp=share_link">
-      <img src="https://drive.google.com/uc?export=view&id=1Ol9bMBIuf1sVL6zjvGVsUnwvmXZeuVIq" alt="Doggy" class="image">
+      <a href="https://drive.google.com/file/d/1bxys6twR8ekO3OODPaUF61Py7MYsbN83/view?usp=sharing">
+      <img src="https://drive.google.com/uc?export=view&id=1bxys6twR8ekO3OODPaUF61Py7MYsbN83" alt="Plants" class="image">
+      <div class="overlay">Plants</div>
       </a>
-      <div class="overlay">Doggy
-      </div>
     </div>
+    <div class="container">
+      <a href="https://drive.google.com/file/d/1YMVlSK05EsMU0UD0u7qjVoUXmFsjpPUl/view?usp=sharing">
+      <img src="https://drive.google.com/uc?export=view&id=1YMVlSK05EsMU0UD0u7qjVoUXmFsjpPUl" alt="Plants" class="image">
+      <div class="overlay">Plants</div>
+      </a>
+    </div>
+    <div class="container">
+      <a href="https://drive.google.com/file/d/1ejp39KBKuUp4lJCuQM08Gw_nEg5tozJ6/view?usp=sharing">
+      <img src="https://drive.google.com/uc?export=view&id=1ejp39KBKuUp4lJCuQM08Gw_nEg5tozJ6" alt="Plants" class="image">
+      <div class="overlay">Plants</div>
+      </a>
+    </div>
+    <div class="container">
+      <a href="https://drive.google.com/file/d/1IScXzzfBiWx5xnxwon0Umk4sMf5YIwHY/view?usp=sharing">
+      <img src="https://drive.google.com/uc?export=view&id=1IScXzzfBiWx5xnxwon0Umk4sMf5YIwHY" alt="Plants" class="image">
+      <div class="overlay">Plants</div>
+      </a>
+    </div>
+    <div class="container">
+      <a href="https://drive.google.com/file/d/1oxxOQqEGYRPQiUWDjAidqIkZqwlZ7Ggq/view?usp=sharing">
+      <img src="https://drive.google.com/uc?export=view&id=1oxxOQqEGYRPQiUWDjAidqIkZqwlZ7Ggq" alt="Plants" class="image">
+      <div class="overlay">Plants</div>
+      </a>
+    </div>
+    <div class="container">
+      <a href="https://drive.google.com/file/d/1XXPsqONyOVoKr0wamgSPumMC8o2U3xW_/view?usp=sharing">
+      <img src="https://drive.google.com/uc?export=view&id=1XXPsqONyOVoKr0wamgSPumMC8o2U3xW_" alt="Plants" class="image">
+      <div class="overlay">Plants</div>
+      </a>
+    </div>
+    <div class="container">
+      <a href="https://drive.google.com/file/d/1klCIVWM7gM3tigxAfakRpwEctrZC8oy1/view?usp=sharing">
+      <img src="https://drive.google.com/uc?export=view&id=1klCIVWM7gM3tigxAfakRpwEctrZC8oy1" alt="Plants" class="image">
+      <div class="overlay">Plants</div>
+      </a>
+    </div>
+    <div class="container">
+      <a href="https://drive.google.com/file/d/1b7xyT05CO4n9-043zC_hveYz7AQaxddV/view?usp=sharing">
+      <img src="https://drive.google.com/uc?export=view&id=1b7xyT05CO4n9-043zC_hveYz7AQaxddV" alt="Plants" class="image">
+      <div class="overlay">Plants</div>
+      </a>
+    </div>
+    <div class="container">
+      <a href="https://drive.google.com/file/d/1fVapnIyJRTqPIyOAoMITCL9OFVhad9UM/view?usp=sharing">
+      <img src="https://drive.google.com/uc?export=view&id=1fVapnIyJRTqPIyOAoMITCL9OFVhad9UM" alt="Plants" class="image">
+      <div class="overlay">Plants</div>
+      </a>
+    </div>
+    
   </div>
-   <div class="column">
-    <div class="container">
-      <a href="https://drive.google.com/file/d/1HwvFNck6ikp71vxTRLd8JPSE9eXXbqze/view?usp=sharing">
-      <img src="https://drive.google.com/uc?export=view&id=1HwvFNck6ikp71vxTRLd8JPSE9eXXbqze" alt="Doggy" class="image">
-      </a>
-      <div class="overlay">Doggy
-      </div>
-    </div>
-    <div class="container">
-      <a href="https://drive.google.com/file/d/18iTrz62VvaCheEHsDWjFefxcLXKbEUR1/view?usp=sharing">
-      <img src="https://drive.google.com/uc?export=view&id=18iTrz62VvaCheEHsDWjFefxcLXKbEUR1" alt="Doggy" class="image">
-      </a>
-      <div class="overlay">Doggy
-      </div>
-    </div>
-    <div class="container">
-      <a href="https://drive.google.com/file/d/1RTkMlzJVg2j4oP5__kS53IuSrsSdjMIg/view?usp=share_link">
-      <img src="https://drive.google.com/uc?export=view&id=1RTkMlzJVg2j4oP5__kS53IuSrsSdjMIg" alt="Doggy" class="image">
-      </a>
-      <div class="overlay">Doggy
-      </div>
-    </div>
-    <div class="container">
-      <a href="https://drive.google.com/file/d/1Z6qXRKEaAlL602RVOJSmwnCNK_nTiEgS/view?usp=share_link">
-      <img src="https://drive.google.com/uc?export=view&id=1Z6qXRKEaAlL602RVOJSmwnCNK_nTiEgS" alt="Doggy" class="image">
-      </a>
-      <div class="overlay">Doggy
-      </div>
-    </div>
-    <div class="container">
-      <a href="https://drive.google.com/file/d/1A0_PdfL_Ij451At6_gRQP3hhbGvcPhHv/view?usp=share_link">
-      <img src="https://drive.google.com/uc?export=view&id=1A0_PdfL_Ij451At6_gRQP3hhbGvcPhHv" alt="Doggy" class="image">
-      </a>
-      <div class="overlay">Doggy
-      </div>
-    </div>
-    <div class="container">
-      <a href="https://drive.google.com/file/d/1m8otMFqAmZDyLcqm0kFofOMHBTdLtYY5/view?usp=share_link">
-      <img src="https://drive.google.com/uc?export=view&id=1m8otMFqAmZDyLcqm0kFofOMHBTdLtYY5" alt="Doggy" class="image">
-      </a>
-      <div class="overlay">Doggy
-      </div>
-    </div>
-  </div>
-  <div class="column">
-    <div class="container">
-      <a href="https://drive.google.com/file/d/1iPWiVa8oVpxKX0nUvSsjWfWfxvpE84er/view?usp=share_link">
-      <img src="https://drive.google.com/uc?export=view&id=1iPWiVa8oVpxKX0nUvSsjWfWfxvpE84er" alt="Doggy" class="image">
-      </a>
-      <div class="overlay">Doggy
-      </div>
-    </div>
-    <div class="container">
-      <a href="https://drive.google.com/file/d/1ff5lMDYXZgrjOYTLnwnjpsGmsmFYm4i-/view?usp=share_link">
-      <img src="https://drive.google.com/uc?export=view&id=1ff5lMDYXZgrjOYTLnwnjpsGmsmFYm4i-" alt="Doggy" class="image">
-      </a>
-      <div class="overlay">Doggy
-      </div>
-    </div>
-    <div class="container">
-      <a href="https://drive.google.com/file/d/1ApNJxmUP_ngMxWeLUHMVCciNVgOWyjZG/view?usp=share_link">
-      <img src="https://drive.google.com/uc?export=view&id=1ApNJxmUP_ngMxWeLUHMVCciNVgOWyjZG" alt="Doggy" class="image">
-      </a>
-      <div class="overlay">Doggy
-      </div>
-    </div>
-    <div class="container">
-      <a href="https://drive.google.com/file/d/1ONHmSq94xstzIFayFGiDry2kyDOMe_ma/view?usp=share_link">
-      <img src="https://drive.google.com/uc?export=view&id=1ONHmSq94xstzIFayFGiDry2kyDOMe_ma" alt="Doggy" class="image">
-      </a>
-      <div class="overlay">Doggy
-      </div>
-    </div>
-    <div class="container">
-      <a href="https://drive.google.com/file/d/1YdWvzMAvZk-vcvYglxPRW_MCefLrg0lH/view?usp=share_link">
-      <img src="https://drive.google.com/uc?export=view&id=1YdWvzMAvZk-vcvYglxPRW_MCefLrg0lH" alt="Doggy" class="image">
-      </a>
-      <div class="overlay">Doggy
-      </div>
-    </div>
-    <div class="container">
-      <a href="https://drive.google.com/file/d/1Ol9bMBIuf1sVL6zjvGVsUnwvmXZeuVIq/view?usp=share_link">
-      <img src="https://drive.google.com/uc?export=view&id=1Ol9bMBIuf1sVL6zjvGVsUnwvmXZeuVIq" alt="Doggy" class="image">
-      </a>
-      <div class="overlay">Doggy
-      </div>
-    </div>
-  </div>
+</div>
+
+<div class="footer">
 </div>
 
 </body>
