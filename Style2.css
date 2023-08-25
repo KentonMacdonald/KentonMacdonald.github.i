@@ -15,7 +15,7 @@ img {
 }
 .fadeOut {
   animation-name: fadeOut;
-  animation-duration: 2s;
+  animation-duration: 1s;
 }
 @keyframes fadeIn {
   from {opacity: .5}
