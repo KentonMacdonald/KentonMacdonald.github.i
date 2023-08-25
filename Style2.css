@@ -9,11 +9,11 @@
 img {
   width: 100%
 }
-.fade {
+.fadeIn {
   animation-name: fadeIn;
   animation-duration: 2s;
 }
-.fade {
+.fadeOut {
   animation-name: fadeOut;
   animation-duration: 1s;
 }
