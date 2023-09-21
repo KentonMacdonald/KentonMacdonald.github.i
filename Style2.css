@@ -11,7 +11,7 @@ img {
 }
 .fadeIn {
   animation-name: fadeIn;
-  animation-duration: 2s;
+  animation-duration: 1s;
 }
 .fadeOut {
   animation-name: fadeOut;
